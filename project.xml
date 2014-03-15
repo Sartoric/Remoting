@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Remoting" package="com.example.remoting" version="1.0.1" company="" />
+	<app main="Client" path="../Export" file="Remoting" />
+	<app main="Client" path="Export" file="Remoting" if="ios" />
+	
+	<source path="src" />
+
+    <haxelib name="openfl" />
+	
+</project>
